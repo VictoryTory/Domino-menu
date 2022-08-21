@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poiret One', cursive, 'Rubik Dirt', cursive;
+    background: rgb(38,39,41);
+    background: radial-gradient(circle, rgb(52, 53, 56) 0%, rgba(24,25,27,1) 47%, rgba(24,25,27,1) 100%);
+    color: #fff;
+}
+a {
+    color: #fff;
+}
+
+.img_wrap {
+    margin: 0 auto;
+}
+
+.img {
+    width: 380px;
+    max-width: 480px;
+}
+
+.list_menu {
+    max-width: 480px;
+    margin: 10px 30px;
+}
+
+.title_inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title, .price {
+    font-family: 'Rubik Dirt', cursive;;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poiret One', cursive;
+    font-size: 14px;
+    margin: 10px 0;
+}
